@@ -1,0 +1,30 @@
+{
+    "name": "NoticiasApi",
+    "short_name": "NoticiasApi",
+    "start_url": "index.html",
+    "display": "standalone",
+    "background_color": "#fdfdfd",
+    "description": "PWA conectada a api de notícias",
+    "theme_color": "#db4938",
+    "orientation": "portrait-primary",
+    "icons": [
+    {
+    "src":  "./images/pwa-icon-256.png ",
+    "sizes": "256x256",
+    "type": "image/png",
+    "purpose": "any maskable"
+},
+{
+    "src":  "./images/pwa-icon-512.png  ",
+    "sizes": "512x512",
+    "type": "image/png",
+    "purpose": "any maskable"
+},
+{
+    "src":  "./images/pwa-iicon-256.png",
+    "sizes": "256x256",
+    "type": "image/png",
+    "purpose": "any maskable"
+      }
+    ]
+}
