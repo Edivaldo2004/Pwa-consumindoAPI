@@ -1,5 +1,5 @@
 {
-  "name": "noticiasapi",
+  "name": "produtosapi",
   "version": "1.0.0",
   "description": "PWA - Api",
   "main": "index.html",
@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "serve": "serve . "
   },
-  "author": "Edivaldo",
+  "author": "Edivaldo e Carlos",
   "license": "ISC",
   "dependencies": {
     "serve": "^14.0.1"

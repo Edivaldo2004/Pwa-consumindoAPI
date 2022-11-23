@@ -1,6 +1,6 @@
 {
-    "name": "NoticiasApi",
-    "short_name": "NoticiasApi",
+    "name": "ProdutosApi",
+    "short_name": "ProdutosApi",
     "start_url": "index.html",
     "display": "standalone",
     "background_color": "#fdfdfd",

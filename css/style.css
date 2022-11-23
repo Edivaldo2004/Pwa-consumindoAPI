@@ -1,4 +1,52 @@
-h1:hover{
- transform:rotateY(720deg);
- transition: 4s;
+/*#002642 azul
+#840032 vermelho
+#E5DADA creme
+#02040F preto */
+
+body{
+background-color: #002642;
+}
+
+header{
+    margin:4%;
+}
+h1{
+    color: aliceblue;
+}
+
+main{
+    color: #E5DADA;
+    text-align: center;
+    margin-top: 15%;
+    width: 100%;
+}
+.main{
+    width: 100%;
+}
+.button{
+    padding: 12px 12px 12px 12px;
+    background-color: #3963a2;
+    color: azure;
+    border: 1px solid #1456ba;
+    border-radius: 5px;
+    font-weight: bold;
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    margin-top: 14px;
+    background-color: #4A6FA5;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 48px;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+    margin-left: -7px;
+}
+
+.footer-text{
+    font-size: 20px;
 }
