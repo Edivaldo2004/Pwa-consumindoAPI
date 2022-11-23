@@ -9,23 +9,57 @@ background-color: #002642;
 
 header{
     margin:4%;
+    display: flex;
+    gap:100%;
 }
+
+.header-title{
+    position: absolute;
+}
+
 h1{
     color: aliceblue;
 }
+ 
+.header-menu{
+    margin-left: 90%;
+    color: aliceblue;
+    background-color: red;
+    padding: 2px 25px 2px 25px;
+    border-radius: 12px;
+    text-decoration: none;
+}
 
+.h2{
+    text-decoration: none;
+    color: aliceblue;
+}
+span{
+    color: red;
+}
 main{
     color: #E5DADA;
     text-align: center;
-    margin-top: 15%;
+    margin-top: 10%;
     width: 100%;
 }
 .main{
-    width: 100%;
+    display: flex;
+    column-gap: 10px;
+}
+
+.menu-produtos{
+  background-color: #174e68;
+  height: 200px;
+  width: 20%;
+  border: 2px solid rgb(24, 22, 58);
+  text-align: center;
+  border-radius: 12px;
+  columns: center;
 }
 .button{
     padding: 12px 12px 12px 12px;
-    background-color: #3963a2;
+    background-color: #10344e;
     color: azure;
     border: 1px solid #1456ba;
     border-radius: 5px;
