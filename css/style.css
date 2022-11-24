@@ -20,22 +20,15 @@ header{
 h1{
     color: aliceblue;
 }
- 
-.header-menu{
-    margin-left: 90%;
-    color: aliceblue;
-    background-color: red;
-    padding: 2px 25px 2px 25px;
-    border-radius: 12px;
-    text-decoration: none;
-}
 
-.h2{
-    text-decoration: none;
-    color: aliceblue;
-}
 span{
     color: red;
+}
+
+.audio{
+    margin-top: 18px;
+    margin-left: 18px;
+    width: 200px;
 }
 main{
     color: #E5DADA;
@@ -48,15 +41,6 @@ main{
     column-gap: 10px;
 }
 
-.menu-produtos{
-  background-color: #174e68;
-  height: 200px;
-  width: 20%;
-  border: 2px solid rgb(24, 22, 58);
-  text-align: center;
-  border-radius: 12px;
-  columns: center;
-}
 .button{
     padding: 12px 12px 12px 12px;
     background-color: #10344e;
@@ -65,22 +49,71 @@ main{
     border-radius: 5px;
     font-weight: bold;
 }
-footer {
-    position: fixed;
-    bottom: 0;
-    margin-top: 14px;
-    background-color: #4A6FA5;
-    color: white;
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    height: 48px;
-    align-items: center;
-    justify-content: center;
-    vertical-align: middle;
-    margin-left: -7px;
-}
 
 .footer-text{
     font-size: 20px;
+}
+
+/* Localização */
+
+.container-localização {
+    box-sizing: border-box;
+    max-width: 100%;
+    width: 100%;
+    padding: 1em;
+    background-color: rgb(64, 93, 119);
+    text-align: center;
+    margin-top: 40%;
+    height: 580px;
+}
+
+.titulo{
+    text-align: center;
+    color: rgb(241, 241, 245);
+    font-size: 2em;
+}
+
+.titulo2{
+    color: rgb(240, 235, 235);
+}
+.conteudo{
+    margin: 1.2em 0;
+}
+
+
+.cabecalhoConteudo{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.rodape{
+    text-align: center;
+    border-radius: 5%;
+}
+
+.conteudoLocalizacao{
+ height: 50px;
+}
+
+.mapouter{
+   text-align: center;
+}
+
+#mapa{
+    height: 220px;
+    width: 50%;
+}
+.botao{
+    background-color: rgba(69, 71, 163, 0.3);
+    box-shadow: 5px 5px 5px rgba(153, 154, 225, 0.3);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    width: 60%;
+    border-radius: 5px;
 }
